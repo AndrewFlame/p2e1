@@ -90,7 +90,7 @@ int main ()
 		  else {
 		  	printf ("O arithmos kykloforias %s trwwei antitimo 10eyro kai eleytherwnei th thesi\n",num );
 		  	int x = theseis(cars, num, type);
-		  	strcpy(cars[x] , "0");// goto
+		  	strcpy(cars[x] , "0");
 		  	sumcars=+10;
 		  }
 	}
@@ -106,7 +106,7 @@ int main ()
 		  else {
 		  	printf ("O arithmos kykloforias %s trwwei antitimo 4euro kai eleytherwnei th thesi\n",num );
 		  	int x = theseis(bikes, num, type);
-		  	strcpy(bikes[x] , "0");// goto
+		  	strcpy(bikes[x] , "0");
 		  }
 	}
 	}
